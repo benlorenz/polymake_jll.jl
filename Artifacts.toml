@@ -1,0 +1,51 @@
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "88b16d6c7eee53a0c58a07e5ad2f484e4dfba496"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "5f57b69067cf618b65a841c5bdf05a47983989557abec3386fbdb590ac15642b"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+0/polymake.v4.1.0.x86_64-apple-darwin14-cxx03.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8189380ac8d3c9fca34121b2d6036a51a373a078"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "98f1aa168f947e518d15d193fa5bb02d8e21b844e75dde6a94f029df783d2f1c"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+0/polymake.v4.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "72a87a63699ed7e7490d15bfaae3c3e22d644a2f"
+libc = "glibc"
+libstdcxx_version = "3.4.23"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "ccb4a44242a20e3b377fb46d0933d0d696e8f4b0657610ba155e97a3d48a2b25"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+0/polymake.v4.1.0.x86_64-linux-gnu-libstdcxx23-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "53d02ba568e23232aafa43d6fdba1778224f3a9b"
+libc = "glibc"
+libstdcxx_version = "3.4.25"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "aa2c294c1166d047fec55414d47cd423d8f0040c789dfff726b329e4ecb6cc9d"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+0/polymake.v4.1.0.x86_64-linux-gnu-libstdcxx25-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "58428b96bfb1ad87dc854f9a23be4b09a0d6c88c"
+libc = "glibc"
+libstdcxx_version = "3.4.26"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "132f2e9455fadb333b392d584b51722e3fc2d8a1fe733c43a36a98662f8ff97f"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+0/polymake.v4.1.0.x86_64-linux-gnu-libstdcxx26-cxx11.tar.gz"
