@@ -125,5 +125,34 @@ function __init__()
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ':')
     global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
+
+    
+   mutable_artifacts_toml = joinpath(dirname(@__DIR__), "MutableArtifacts.toml")
+   polymake_tree = "polymake_tree"
+   polymake_tree_hash = artifact_hash(polymake_tree, mutable_artifacts_toml)
+   if polymake_tree_hash != nothing
+      unbind_artifact!(mutable_artifacts_toml,polymake_tree)
+   end
+
+   # create a partial polymake tree with links to dependencies
+   polymake_tree_hash = create_artifact() do art_dir
+      mkpath(joinpath(art_dir,"deps"))
+      # maybe we need more?
+      for dep in [GMP_jll, MPFR_jll, FLINT_jll, boost_jll, lrslib_jll, cddlib_jll, normaliz_jll, bliss_jll, Perl_jll, PPL_jll]
+         symlink(dep.artifact_dir, joinpath(art_dir,"deps","$dep"))
+      end
+      for dir in readdir(polymake_jll.artifact_dir)
+         symlink(joinpath(polymake_jll.artifact_dir,dir), joinpath(art_dir,dir))
+      end
+   end
+   bind_artifact!(mutable_artifacts_toml,
+      polymake_tree,
+      polymake_tree_hash;
+      force=true
+   )
+
+   # Point polymake to our custom tree
+   ENV["POLYMAKE_DEPS_TREE"] = artifact_path(polymake_tree_hash)
+
 end  # __init__()
 
