@@ -9,11 +9,29 @@ os = "macos"
     url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+2/polymake.v4.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
 [[polymake]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c64387343848d9d65d53d48c07968877f2f71a98"
+git-tree-sha1 = "02b14899ba8c52d226d6f200737b0d2e7f66212b"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "b59aacf392d05ca867305c05c979ef2a7504400b81ef9a91d9fe58334ae74854"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.2.1+1/polymake.v4.2.1.x86_64-apple-darwin.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b2805e96f111dee201bf98d518f386507670c052"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "38296f372d85c7640006d58610db3b96e2baaf07381470111503faea2c789fc7"
-    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+2/polymake.v4.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "fbc05f04952330ab165ca613a8f89fc3dfa7ce9d98a45d42f666c988d50b5381"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.2.1+1/polymake.v4.2.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ba517be69624cba4e1c80a04c2dd60999e5dfdb9"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "4ccc079904f42338c30aab3edfaeaed9b2ca5a280b79719ce16dbf7311333164"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.2.1+1/polymake.v4.2.1.x86_64-linux-gnu-cxx11.tar.gz"
