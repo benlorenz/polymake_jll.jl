@@ -1,14 +1,5 @@
 [[polymake]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fe90e561be54f2f93b9c5a9a983e02152ce86eca"
-os = "macos"
-
-    [[polymake.download]]
-    sha256 = "f7d702639ea2bb30999fb7a3e481d3029b24b9439107ed17af94ff3986708ee2"
-    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v4.1.0+2/polymake.v4.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[polymake]]
-arch = "x86_64"
 git-tree-sha1 = "02b14899ba8c52d226d6f200737b0d2e7f66212b"
 os = "macos"
 
