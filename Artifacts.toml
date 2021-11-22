@@ -1,28 +1,208 @@
 [[polymake]]
-arch = "x86_64"
-git-tree-sha1 = "5f9154ff8b2d7c789006f3f31defb938c3a7d3b6"
+arch = "aarch64"
+git-tree-sha1 = "2d4e288a84800471b94d7f8177dc132a8e2a6582"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "a4ef74947749bfa14693e93f4252acd17893026cf47f7c3806bb97444f11d678"
-    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.500.0+0/polymake.v400.500.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "d8be4d07e24eef6a30b4f567b80dee3201d2fa203753917dac808966ebd524a1"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.aarch64-apple-darwin.tar.gz"
+[[polymake]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "35b0ee5f5f69c6f3822428e9020e0548d7992be8"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "4a9047f311926fc5c67daaf54ffb66f682dddb34ce56269888b0ec4cd123b214"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[polymake]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cece2223b9ef3c7594f191920c166024a2b870a3"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "26f55da836aef85ce36d81b1eca16720212106243a9fe58ad7d8782f814b51f4"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[polymake]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7723280e7e36b071307f809580716a27f61ad191"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "1dfb2bacf5102d1283585b747d9ba7bbdd54af1eae5a3a6eaf0f8f896e7aecbe"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.aarch64-linux-musl-cxx03.tar.gz"
+[[polymake]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c8762afacdf5dc6a422389b0eb30489a0efa2865"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "30bf9bf4a30429efd0200c87bd1319cf238b8d893e0d02260b1573088da7a512"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.aarch64-linux-musl-cxx11.tar.gz"
+[[polymake]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dee7fef19cee2ce4e5a675d39dbf3f6a5927a1e5"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "c31a082a1607c7e8a8fb131cab9dee1cb04b7b8f27a0378e7b9caa18489faebf"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[polymake]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a0e008bb70e01defa7a5910225edca2d90fb8988"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "c6690585e5df5461ebee75b47db5e092e0ebc2de60caf16da8bf9675b71e8b59"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[polymake]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "14bee13e873196cca0e6fbcdb96037abee56ff98"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "07ec24ead86891adb1b9351b2455923cd4bb8ee9f161a41f17edf1d384049bc5"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[polymake]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ab486c2e5ef2e868bfa9785b01cd48045c649803"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "7765205249a62a83deefd21e485b2ae3a17a946e1b8cb5217338bab1e6961152"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[polymake]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2330c3c05890f84a59cd03c876b2cd5ee6f98384"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "6f9305a7f9fcae57b4dc820c7105113b62cde1c9721efc2bc056155502f381c4"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.i686-linux-gnu-cxx03.tar.gz"
+[[polymake]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b3e1728fd6566a6ba1603fe1ca331c4301095551"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "2e7f3e194056aecbe882277f2b0b42feb356ced0e1e78a20843c8197f2e125cb"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.i686-linux-gnu-cxx11.tar.gz"
+[[polymake]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bd6a04809e45c2be94bca713d26f343a2cef7c9b"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "0045358762f66834c49eb188fb843883b976acac8127cb0b60e259cccb9d41ad"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.i686-linux-musl-cxx03.tar.gz"
+[[polymake]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e711dafc1e4947e12b899315d7277578534b1281"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "520b0c35ed499fd8519f1c2433e298c2548f6da0c25106398d62675e31cb2290"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.i686-linux-musl-cxx11.tar.gz"
+[[polymake]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "59f14e3e5b32675ee4edbd77034a288eb028d3fd"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "ac3799092596cda527ad601c6593cd9aeb0ff4031601eb8dfc688b7c72e18cac"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[polymake]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "97835d5c1c1096f6779282edf630983b1c29e654"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "d4865965a4afde11833567ac9efd70491a8a387b69e5e5f5dbbc3f6a250793f1"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "c5100abe86a17e97dbab26dd0e1f084647ecf145"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "60f88a74b4f14688881e7abd1c27362c6b36b2826b34acec0e6864ba65688dc6"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9dc02c111328e9045e1a5508cf7f4a2cdacc77c4"
+git-tree-sha1 = "75a85d94b72509da6f163c2417966e57e62ca1e7"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "8ca5bbb6a316236e6750fa16f6640af065c48bf562da1e3636c02e4b624d9d9f"
-    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.500.0+0/polymake.v400.500.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "7b001135d42abc07628431b3d5822c1fee21b9b14fc493e2185fdc45a3a75178"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "66989525e113a0287f5967dda5092843a6fd0a6a"
+git-tree-sha1 = "ef672d9d7e39ae855177c9a6145d207cfc089e5c"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "0cf2c6fcb6b036cf8ccbc5e45b9420d9c32728721dc5993cc525a3df99a79991"
-    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.500.0+0/polymake.v400.500.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "be047cff7063350414ce95ad08cd8b740b84f72029af8392b30b533891198ba1"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "59543a8f2922b793b9a6d19354c4bf2409d271b4"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "8d388853e4e74717bf6e31beefb7e8e00b9130bfd03a423c0e007c81753ad90c"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-linux-musl-cxx03.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a53a7adc833fc0ca1a07f96cbd00e55d57497c25"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "ac4abc8993398576873d08a7c2c3df101b86013c63709a7ca679321398f15544"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-linux-musl-cxx11.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "14f1e9599b06d7a00466698065a042bae29540bd"
+os = "freebsd"
+
+    [[polymake.download]]
+    sha256 = "00f254be08aa323c051cba0e5efbe3c2a55b93c84521e2ebb4f454e7750f39c9"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-unknown-freebsd.tar.gz"

@@ -10,7 +10,6 @@ using Perl_jll
 using bliss_jll
 using boost_jll
 using cddlib_jll
-using lib4ti2_jll
 using lrslib_jll
 using normaliz_jll
 JLLWrappers.@generate_wrapper_header("polymake")
@@ -20,7 +19,7 @@ JLLWrappers.@declare_library_product(libpolymake_apps_rt, "@rpath/libpolymake-ap
 JLLWrappers.@declare_executable_product(polymake)
 JLLWrappers.@declare_executable_product(polymake_config)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, GMP_jll, MPFR_jll, FLINT_jll, PPL_jll, Perl_jll, bliss_jll, boost_jll, cddlib_jll, lib4ti2_jll, lrslib_jll, normaliz_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, GMP_jll, MPFR_jll, FLINT_jll, PPL_jll, Perl_jll, bliss_jll, boost_jll, cddlib_jll, lrslib_jll, normaliz_jll)
     JLLWrappers.@init_file_product(
         generate_deps_tree,
         "share/polymake/generate_deps_tree.jl",
