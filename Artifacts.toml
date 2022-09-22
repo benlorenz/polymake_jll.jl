@@ -206,3 +206,154 @@ os = "freebsd"
     [[polymake.download]]
     sha256 = "00f254be08aa323c051cba0e5efbe3c2a55b93c84521e2ebb4f454e7750f39c9"
     url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.501.0+0/polymake.v400.501.0.x86_64-unknown-freebsd.tar.gz"
+[[polymake]]
+arch = "aarch64"
+git-tree-sha1 = "6c23ec55fece8f499491dd18ecdd537665f0535e"
+julia_version = "1.7.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "3de9e3e6e5858e77078116b5fc3131374d0bd1543b7339dd9d317f2073b66663"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.aarch64-apple-darwin-julia_version+1.7.0.tar.gz"
+[[polymake]]
+arch = "aarch64"
+git-tree-sha1 = "6aebd08bf870b09db06d3ed47c4be7428b6bdb9c"
+julia_version = "1.8.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "04f851f785f4512ccc59af68a493329fdc5325ae718d5b37058b375e9125540a"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.aarch64-apple-darwin-julia_version+1.8.0.tar.gz"
+[[polymake]]
+arch = "aarch64"
+git-tree-sha1 = "80cf7cb3d94d30ddd4c24c2ded37e6aa5477506d"
+julia_version = "1.9.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "168957658126978183ba683a06db631964682744fd75a618db436cefdbd00ac3"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.aarch64-apple-darwin-julia_version+1.9.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "0b3745954f68bcea00e4bfaafccdeb8fc98f4a68"
+julia_version = "1.6.3"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "f1d75017990c161a2348eeae2c5c6228fff35473eb0c5d115076ea7a116030cc"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-apple-darwin-julia_version+1.6.3.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "0e65774f164036c89342dba2e44b88edf29da7c0"
+julia_version = "1.7.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "130ab5382f47df04652e237c9671c1ce9cef6bd9979f2baee6608a659276489b"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-apple-darwin-julia_version+1.7.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "61004697717f3840644b61195c44983f7e84ba2a"
+julia_version = "1.8.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "068a383d80ebd26102764af81ce1f09d2a226d11355a43db7251e4c1115d3e68"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-apple-darwin-julia_version+1.8.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+git-tree-sha1 = "aa7e23fc09e96b0fc46fdb2bb1c4e926022afa76"
+julia_version = "1.9.0"
+os = "macos"
+
+    [[polymake.download]]
+    sha256 = "a752a5a105a49976f27958d0b796d1ceffb944b6682f23d981372a9ff0800c0c"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-apple-darwin-julia_version+1.9.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "75f6acdc7ccd21fe4adc8ed51b2de500dd649e90"
+julia_version = "1.6.3"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "4800c151b481dd0ea3b0f08fdf9edc4b9fec86401af336304ed183c664bcb58c"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-gnu-cxx11-julia_version+1.6.3.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c320732f191b8932eb48dcfc17f16d09d9d6fefc"
+julia_version = "1.7.0"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "cbde621a30f72ed2a9d2b4c8dd7681c52c12be846fe442311f471e354e9f9f39"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-gnu-cxx11-julia_version+1.7.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e9007c8f94d8fd127022453a868e7898233af4eb"
+julia_version = "1.8.0"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "3d9767533c9e3aaffad18a6f37d17ab783d73d6460f2c072d8a42bc25520a0a5"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-gnu-cxx11-julia_version+1.8.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2926b01f78055a5080967983f2bd21ccee31bc7b"
+julia_version = "1.9.0"
+libc = "glibc"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "767591d935647f0b610415da79e72cd4c18f7c76a471ebe62a5917a12115facc"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-gnu-cxx11-julia_version+1.9.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34eac862e4b56c25c342b5e54e2ad95c04cb010a"
+julia_version = "1.6.3"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "b46740dda8932cb4c5f74bee58434b36161c5bceba8aa94645ea37a07c5b773b"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-musl-cxx11-julia_version+1.6.3.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "703a065443e952c94be23c8f4d58c6c06c9fcf78"
+julia_version = "1.7.0"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "3fcda8347e9413aff28aa36795df80f3e37711d3771529c4460da09887a3505d"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-musl-cxx11-julia_version+1.7.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "76f68627f78d789160195c88e955d0cc568cfcb2"
+julia_version = "1.8.0"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "505490b9b999d009c4edf1ff7dc35f06257d319d7f125f0b7b794f673148196c"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-musl-cxx11-julia_version+1.8.0.tar.gz"
+[[polymake]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "12d20ec21fbcc0919629c2516f8f8d8ddc12f078"
+julia_version = "1.9.0"
+libc = "musl"
+os = "linux"
+
+    [[polymake.download]]
+    sha256 = "7c6d7b785f8d7518387fdf8b55682691295e41311d3384535a8f18ca7ac3b564"
+    url = "https://github.com/benlorenz/polymake_jll.jl/releases/download/polymake-v400.701.0+0/polymake.v400.701.0.x86_64-linux-musl-cxx11-julia_version+1.9.0.tar.gz"
